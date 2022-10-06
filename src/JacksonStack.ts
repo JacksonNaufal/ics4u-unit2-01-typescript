@@ -8,15 +8,18 @@
  */
 
 class JacksonStack {
-  stackNum: number[] = []
+  private stackNum: number[] = []
 
+  // gathers the pushed number
   Push(pushedNum: number): void {
     this.stackNum.push(pushedNum)
   }
 
+  // prints the array
   StackArray(): void {
     console.log(this.stackNum)
   }
 }
 
+// exports file back to Main
 export = JacksonStack
