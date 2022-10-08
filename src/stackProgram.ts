@@ -11,7 +11,7 @@
 import JacksonStack from './JacksonStack'
 import promptSync from 'prompt-sync'
 
-// defining what im using
+// function/stackNum decleration
 const prompt = promptSync()
 const stackNum = new JacksonStack()
 
