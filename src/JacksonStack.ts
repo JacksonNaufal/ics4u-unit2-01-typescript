@@ -8,7 +8,8 @@
  */
 
 class JacksonStack {
-  private stackNum: number[] = []
+  // private array creation
+  private readonly stackNum: number[] = []
 
   // gathers the pushed number
   Push(pushedNum: number): void {
